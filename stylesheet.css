@@ -115,14 +115,15 @@ margin-left: 38px;
  display: inline-block;
 }
 
-.header .wrapper-left-header {
+.wrapper-left-header {
   float: left;
+  width: 25%;
 }
 
-.header .wrapper-middle-header {
-  
+.wrapper-middle-header {
+  width: 50%;
 }
-
-.header .wrapper-right-header {
+.wrapper-right-header {
   float: right;
+  width: 25%;
 }
