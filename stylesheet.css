@@ -122,8 +122,15 @@ margin-left: 38px;
 
 .wrapper-middle-header {
   width: 50%;
+  text-align: center;
 }
+
+.wrapper-middle-header input {
+  width: 100%;
+}
+
 .wrapper-right-header {
   float: right;
   width: 25%;
+  text-align: center;
 }
