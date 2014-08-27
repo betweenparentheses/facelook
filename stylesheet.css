@@ -107,3 +107,22 @@ margin-left: 38px;
   border-right: 3px solid #444;
   margin-top: 5px;
 }
+
+/* LOGIN PAGE */
+
+.header div {
+ background-color: inherit; 
+ display: inline-block;
+}
+
+.header .wrapper-left-header {
+  float: left;
+}
+
+.header .wrapper-middle-header {
+  
+}
+
+.header .wrapper-right-header {
+  float: right;
+}
