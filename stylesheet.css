@@ -27,6 +27,8 @@ div h4 {
   font-family: Helvetica, sans-serif;
   border-bottom: 2px solid black;
   margin-bottom: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 #login-header {
   height: 72px;
@@ -35,15 +37,12 @@ div h4 {
   display: inline-block;
   margin: 10px auto;
 }
-.header h1 {
-  
-}
+
 .header .title {
   float: left;
 }
 .header .login-forms {
   float: right;
-  margin-right: 5px;
 }
 .header .login-forms h6 {
   line-height: 24px;
