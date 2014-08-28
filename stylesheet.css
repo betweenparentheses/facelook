@@ -48,7 +48,7 @@ div h4 {
 }
 .header > div {
   display: inline-block;
-  margin: 10px auto;
+  /* margin: 10px auto; */
 }
 
 .header .title {
@@ -122,10 +122,6 @@ margin-left: 38px;
 }
 
 /* LOGIN PAGE */
-
-.header div {
- display: inline-block;
-}
 
 .wrapper-left-header {
   float: left;
