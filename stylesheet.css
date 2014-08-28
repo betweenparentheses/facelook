@@ -131,6 +131,7 @@ margin-left: 38px;
   font-size: 42px;
   line-height: 48px;
   vertical-align: top;
+  border: 1px solid #aaa;
 }
 
 .wrapper-middle-header {
