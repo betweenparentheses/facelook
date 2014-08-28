@@ -32,6 +32,16 @@ div h4 {
   padding-right: 10px;
   height: 60px;
 }
+
+.header:after { 
+  content: "\00A0"; 
+  display: block; 
+  clear: both; 
+  visibility: hidden; 
+  line-height: 0; 
+  height: 0;
+}
+
 #login-header {
   height: 72px;
 }
