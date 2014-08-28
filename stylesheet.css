@@ -119,6 +119,7 @@ margin-left: 38px;
 .wrapper-left-header {
   float: left;
   width: 25%;
+  box-sizing: border-box;
 }
 
 .wrapper-left-header img {
@@ -138,6 +139,7 @@ margin-left: 38px;
   width: 45%;
   text-align: center;
   line-height:48px;
+  box-sizing: border-box;
 }
 
 .wrapper-middle-header input {
@@ -152,6 +154,7 @@ margin-left: 38px;
   display: inline-block;
   margin: 0;
   border: 1px solid #aaa;
+  box-sizing: border-box;
 }
 
 .wrapper-right-header h4 {
