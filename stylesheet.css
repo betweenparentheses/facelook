@@ -150,9 +150,10 @@ margin-left: 38px;
   width: 25%;
   display: inline-block;
   margin: 0;
+  border: 1px solid #aaa;
 }
 
 .wrapper-right-header h4 {
-  color: #fff;
+  color: #666;
   display: inline;
 }
