@@ -3,8 +3,9 @@ body {
 }
 
 div {
-  /*border: 1px solid #bbb*/
+  border: 1px solid #bbb;
 }
+
 div h1 {
   font-size: 42px;
   line-height: 60px;
@@ -29,6 +30,7 @@ div h4 {
   margin-bottom: 24px;
   padding-left: 10px;
   padding-right: 10px;
+  height: 60px;
 }
 #login-header {
   height: 72px;
@@ -121,23 +123,36 @@ margin-left: 38px;
 
 .wrapper-left-header img {
   display: inline;
+  line-height: 48px;
+  padding-right: 5px;
 }
 .wrapper-left-header h2 {
   display: inline;
+  font-size: 42px;
+  line-height: 48px;
+  vertical-align: top;
 }
 
 .wrapper-middle-header {
-  width: 50%;
+  width: 45%;
   text-align: center;
+  line-height:48px;
 }
 
 .wrapper-middle-header input {
   width: 100%;
+  padding: 2px;
 }
 
 .wrapper-right-header {
   float: right;
+  clear: none;
   width: 25%;
-  text-align: center;
+  display: inline-block;
+  margin: 0;
 }
 
+.wrapper-right-header h4 {
+  color: #fff;
+  display: inline;
+}
