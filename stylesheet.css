@@ -119,6 +119,10 @@ margin-left: 38px;
   width: 25%;
 }
 
+.wrapper-left-header h2 {
+  display: inline;
+}
+
 .wrapper-middle-header {
   width: 50%;
   text-align: center;
@@ -133,3 +137,4 @@ margin-left: 38px;
   width: 25%;
   text-align: center;
 }
+
