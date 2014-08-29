@@ -135,7 +135,7 @@ margin-left: 38px;
   padding-right: 5px;
 }
 .wrapper-left-header h2 {
-  display: inline;
+  display: inline-block;
   font-size: 42px;
   line-height: 48px;
   vertical-align: top;
@@ -166,5 +166,5 @@ margin-left: 38px;
 
 .wrapper-right-header h4 {
   color: #666;
-  display: inline;
+  display: inline-block;
 }
