@@ -170,5 +170,12 @@ margin-left: 38px;
 
 .wrapper-right-header h4 {
   color: #fff;
+  margin: 0;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+}
+
+.wrapper-right-header h4 {
+  color: #666;
   display: inline-block;
 }
