@@ -11,6 +11,7 @@ div h1 {
   line-height: 60px;
   margin-bottom: 10px;
 }
+
 div h3 {
   font-size: 24px;
   line-height: 48px;
@@ -31,13 +32,24 @@ div h4 {
   padding-left: 10px;
   padding-right: 10px;
   height: 60px;
+  width: 100%;
 }
+
+.header:after {
+  content: "\00A0";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
 #login-header {
   height: 72px;
 }
 .header > div {
   display: inline-block;
-  margin: 10px auto;
+  /* margin: 10px auto; */
 }
 
 .header .title {
@@ -110,33 +122,34 @@ margin-left: 38px;
   margin-top: 5px;
 }
 
-/* LOGIN PAGE */
-
-.header div {
- display: inline-block;
-}
+/* ABOUT PAGE */
 
 .wrapper-left-header {
-  float: left;
   width: 25%;
+  vertical-align: middle;
+  box-sizing: border-box;
 }
 
 .wrapper-left-header img {
-  display: inline;
+  display: inline-block;
   line-height: 48px;
   padding-right: 5px;
 }
+
 .wrapper-left-header h2 {
-  display: inline;
+  display: inline-block;
   font-size: 42px;
   line-height: 48px;
   vertical-align: top;
+  margin: 0 10px;
 }
 
 .wrapper-middle-header {
   width: 45%;
-  text-align: center;
+  margin: 0 auto;
   line-height:48px;
+  vertical-align: middle;
+  box-sizing: border-box;
 }
 
 .wrapper-middle-header input {
@@ -145,14 +158,17 @@ margin-left: 38px;
 }
 
 .wrapper-right-header {
-  float: right;
-  clear: none;
   width: 25%;
   display: inline-block;
-  margin: 0;
+  margin: 0 10px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+  line-height: 48px;
 }
 
 .wrapper-right-header h4 {
   color: #fff;
-  display: inline;
+  display: inline-block;
 }
