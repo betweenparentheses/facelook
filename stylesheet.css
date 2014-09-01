@@ -271,7 +271,7 @@ margin-left: 38px;
   padding-left: 25px;
   position: relative;
   text-align: center;
-  background-color: #ccc;
+  background-color: #ddd;
   border-bottom: 2px solid black;
 }
 
@@ -317,12 +317,14 @@ margin-left: 38px;
 
 .info-table {
   width: 100%;
+  margin: 18px 0;
 }
 
 .info-table td:first-child {
   font-weight: bold;
 }
 
-.info-table td:nthΩchild(n > 1) {
+.info-table td:nth-child(2) {
   text-align: right;
 }
+
