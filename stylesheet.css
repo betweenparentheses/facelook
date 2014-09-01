@@ -185,6 +185,7 @@ margin-left: 38px;
   display: block;
   border: 1px solid black;
   position: relative;
+  font-family: Helvetica, sans-serif;
 }
 
 .headline .background-img-wrapper {
@@ -201,29 +202,49 @@ margin-left: 38px;
 }
 .headline .background-img-wrapper h3 {
   position: relative;
-  left: 160px;
+  left: 180px;
   bottom: 48px;
   color: #ffffff;
 }
 
 .headline .background-img-wrapper .avatar {
   position: absolute;
-  bottom: 0px;
-  left: 0px;
-  border: 1px solid black;
+  bottom: -20px;
+  left: 13px;
+  border: 2px solid black;
   margin: 0;
 }
 
-.headline .profile-navbar div {
-  border-left: 3px solid black;
-  border-right: 3px solid black;
+.headline .profile-navbar {
+  width: 851px;
+  height: 42px;
+  margin: 0 auto;
+  display: block;
+}
+
+.headline .profile-navbar > div {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
   border-bottom: 2px solid black;
   border-top: 2px solid black;
-  margin: 0;
   display: inline-block;
+  text-align: center;
   height: 42px;
   line-height: 42px;
-  width: 15%;
+  width: 120px;
+  box-sizing: border-box;
+}
+
+.headline .profile-navbar div h4 {
+  margin: 0;
+}
+
+.headline .profile-navbar .left-blank-tab {
+  width: 180px;
+}
+
+.headline .profile-navbar .edit-tab {
+  width: 150px;
 }
 
 .content {
@@ -231,6 +252,7 @@ margin-left: 38px;
   margin: 80px auto;
   display: block;
   border: 1px solid black;
+  font-family: Helvetica, sans-serif;
   position: relative;
 }
 
@@ -239,17 +261,62 @@ margin-left: 38px;
   margin: 0 auto;
 }
 
+.content h4 {
+  line-height: 36px;
+}
+
 .content .about-top-line {
   width: 100%;
   display: block;
+  padding-left: 25px;
+  position: relative;
+  text-align: center;
+}
+
+.content .about-top-line h3 {
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.content .about-top-line form {
+  display: inline-block;
+  right: 0;
+}
+
+.content .profile-btn {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  background-color: #296BE8;
+  color: #fff;
+  padding: 5px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  border-bottom: 3px solid #000;
+  border-left: 3px solid #000;
 }
 
 .content .about-left {
   float: left;
   width: 45%;
+  padding: 20px;
 }
 
 .content .about-right {
   float: right;
   width: 45%;
+  padding: 20px;
+}
+
+.greyed {
+  color: #aaa;
+}
+
+.info-table {
+  width: 100%;
+}
+
+.info-table td:first-child {
+  font-weight: bold;
 }
