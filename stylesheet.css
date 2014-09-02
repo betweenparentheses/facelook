@@ -257,6 +257,7 @@ margin-left: 38px;
 #selected-tab {
   font-weight: bold;
   background-color: #ddd;
+  padding: -1px;
 }
 
 
