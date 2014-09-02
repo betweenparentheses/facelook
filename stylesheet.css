@@ -229,12 +229,11 @@ margin-left: 38px;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  height: 48px;
-  line-height: 48px;
+  height: 45px;
+  line-height: 45px;
   width: 110px;
   border: 3px solid black;
-  box-sizing: border-box;
-  margin: 0px -4px;
+  margin: 0px -3px;
 }
 
 .headline .profile-navbar div h4 {
