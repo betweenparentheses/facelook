@@ -246,6 +246,9 @@ margin-left: 38px;
 .headline .profile-navbar .edit-tab {
   width: 150px;
   border-right: 0;
+}
+
+.headline .profile-navbar .edit-tab a {
   text-align: right;
 }
 
