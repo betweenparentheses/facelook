@@ -353,6 +353,6 @@ margin-left: 38px;
   border: 1px solid black;
   margin: 10px 10px;
   position: relative;
-  
+  display: inline-block;
 }
 
