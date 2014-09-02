@@ -250,6 +250,8 @@ margin-left: 38px;
 
 .headline .profile-navbar .edit-tab a {
   text-align: right;
+  display: inline-block;
+  width: 100%;
 }
 
 #selected-tab {
