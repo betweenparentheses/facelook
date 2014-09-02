@@ -344,3 +344,11 @@ margin-left: 38px;
   text-align: right;
 }
 
+/*Friends page-specific styling */
+
+.friend-box {
+  width: 400px;
+  height: 100px;
+  border: 2px solid black;
+}
+
