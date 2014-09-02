@@ -179,11 +179,11 @@ margin-left: 38px;
 /* HEADLINE SECTION FOR ABOUT AND FRIENDS PAGES */
 
 .headline {
-  height: 313px;
+  height: 360px;
   width: 851px;
   margin: 20px auto;
   display: block;
-  border: 1px solid black;
+  border: 2px solid black;
   position: relative;
   font-family: Helvetica, sans-serif;
 }
@@ -192,14 +192,16 @@ margin-left: 38px;
   display: block;
   width: 100%;
   height: 313px;
-  border: 1px solid black;
+  border: 2px solid orange;
   position: relative;
 }
 
 .headline .background-img-wrapper .cover {
   position: relative;
   width: 100%;
+  height: 313px;
 }
+
 .headline .background-img-wrapper h3 {
   position: relative;
   left: 180px;
@@ -266,7 +268,7 @@ margin-left: 38px;
 }
 
 .content .about-top-line {
-  width: 825px;
+  width: 826px;
   display: block;
   padding-left: 25px;
   position: relative;
