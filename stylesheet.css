@@ -359,3 +359,18 @@ margin-left: 38px;
 .friend-box > div {
   display: inline-block;
 }
+
+.friend-img-wrapper {
+  width: 95px;
+  height: 95px;
+}
+
+.friend-name {
+  height: 95px;
+  width: 140px;
+}
+
+.unfriend-button-wrapper {
+  height: 95px;
+  width: 140px;
+}
