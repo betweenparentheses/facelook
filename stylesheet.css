@@ -374,3 +374,12 @@ margin-left: 38px;
   height: 95px;
   width: 140px;
 }
+
+.unfriend-button-wrapper input {
+  background-color: #ccc;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  padding: 5px;
+}
