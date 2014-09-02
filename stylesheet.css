@@ -1,5 +1,6 @@
 body {
   font-family: Helvetica, sans-serif;
+  font-size: 12px;
 }
 
 div {
@@ -245,6 +246,7 @@ margin-left: 38px;
 .headline .profile-navbar .edit-tab {
   width: 150px;
   border-right: 0;
+  text-align: right;
 }
 
 #selected-tab {
