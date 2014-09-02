@@ -354,10 +354,12 @@ margin-left: 38px;
   margin: 10px 10px;
   position: relative;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .friend-box > div {
   display: inline-block;
+  vertical-align: middle;
 }
 
 .friend-img-wrapper {
