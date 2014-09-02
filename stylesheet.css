@@ -247,6 +247,12 @@ margin-left: 38px;
   border-right: 0;
 }
 
+#selected-tab {
+  background-color: #ccc;
+  z-index: 100;
+}
+
+
 .content {
   width: 851px;
   margin: 80px auto;
