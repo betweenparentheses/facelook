@@ -290,13 +290,13 @@ margin-left: 38px;
   border-bottom: 2px solid black;
 }
 
-.content .about-top-line h3 {
+.content .top-line h3 {
   display: inline-block;
   margin: 0 auto;
   position: relative;
 }
 
-.content .about-top-line form {
+.content .top-line form {
   display: inline-block;
   right: 0;
 }
