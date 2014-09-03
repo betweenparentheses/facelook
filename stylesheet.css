@@ -489,6 +489,11 @@ margin-left: 38px;
 
 .post {
   border: 2px solid #555;
+  display: block;
+  position: relative;
+  margin: 10px auto;
+  display: block;
+  width: 80%;
 }
 
 .post .likes-and-comments {
