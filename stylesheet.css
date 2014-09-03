@@ -500,7 +500,9 @@ margin-left: 38px;
   border: 2px solid #555;
   background-color: #ddd;
   line-height: 18px;
-  
+}
+.post .likes-and-comments p {
+  margin: 5px 0;
 }
 
 .post .post-ID {
