@@ -418,6 +418,10 @@ margin-left: 38px;
 
 /* Newsfeed Styles */
 
+.whole-feed-page {
+  border-top: 2px solid #555;
+}
+
 .feed-left-column {
   border-right: 2px solid #555;
   height: 100%;
