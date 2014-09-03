@@ -340,10 +340,12 @@ margin-left: 38px;
 
 .info-table td:first-child {
   font-weight: bold;
+  text-align: left;
+  width: 50%;
 }
 
 .info-table td:nth-child(2) {
-  text-align: right;
+  text-align: left;
 }
 
 /*Friends page-specific styling */
