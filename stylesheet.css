@@ -436,6 +436,10 @@ margin-left: 38px;
   padding-left: 100px;
 }
 
+.user-ID {
+  width: 100%;
+}
+
 .user-ID-img-wrapper {
   display: inline-block;
   position: relative;
@@ -443,4 +447,15 @@ margin-left: 38px;
   height: 80px;
   border: 1px solid #666;
   margin: 5px;
+}
+
+.username-links {
+  display: inline-block;
+  padding: 5px;
+  box-sixing: border-box;
+}
+
+.my-profile-link {
+  font-size: 14px;
+  font-weight: bold;
 }
