@@ -418,8 +418,10 @@ margin-left: 38px;
 .feed-left-column {
   border-right: 2px solid #555;
   height: 100%;
+  float: left;
 }
 
 .feed {
-
+  float: right;
+  height: 100%;
 }
