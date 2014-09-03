@@ -182,7 +182,10 @@ margin-left: 38px;
 .headline {
   height: 360px;
   width: 851px;
-  margin: 20px auto;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
   border: 2px solid black;
   position: relative;
