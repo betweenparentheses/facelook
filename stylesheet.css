@@ -502,7 +502,7 @@ margin-left: 38px;
   line-height: 18px;
 }
 .post p {
-  padding: 5px 0;
+  padding: 5px auto;
 }
 
 .post .post-ID {
