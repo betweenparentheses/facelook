@@ -456,6 +456,7 @@ margin-left: 38px;
   box-sixing: border-box;
   vertical-align: middle;
   margin: auto;
+  height: 100%;
 }
 
 .username-links a {
@@ -465,4 +466,23 @@ margin-left: 38px;
 .username-links .my-profile-link {
   font-size: 16px;
   font-weight: bold;
+}
+
+.post-ID {
+  width: 100%;
+  height: 50px;
+  display: block;
+}
+
+.post-id-img-wrapper {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.post-id-text {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
