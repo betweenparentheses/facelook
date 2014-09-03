@@ -420,6 +420,7 @@ margin-left: 38px;
 
 .whole-feed-page {
   border-top: 2px solid #555;
+  font-family: Helvetica, sans-serif;
 }
 
 .feed-left-column {
@@ -459,6 +460,7 @@ margin-left: 38px;
 .username-links a {
   font-size: 10px;
 }
+
 .my-profile-link {
   font-size: 16px;
   font-weight: bold;
