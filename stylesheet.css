@@ -505,3 +505,7 @@ margin-left: 38px;
 .post .post-ID {
   height: auto;
 }
+
+.post .post-ID .post-ID-text {
+  height: auto;
+}
