@@ -23,6 +23,12 @@ div h4 {
   line-height: 36px;
 }
 
+.nodecorate {
+  text-decoration: none;
+  font-size: inherit;
+  color: inherit;
+}
+
 .header {
   background-color: #3B5998;
   display: block;
@@ -187,7 +193,7 @@ margin-left: 38px;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  border: 2px solid black;
+  border: -2px solid black;
   position: relative;
   font-family: Helvetica, sans-serif;
 }
@@ -225,6 +231,7 @@ margin-left: 38px;
   height: 42px;
   margin: 0 auto;
   display: block;
+  text-align: center;
 }
 
 .headline .profile-navbar > div {
@@ -247,7 +254,7 @@ margin-left: 38px;
 }
 
 .headline .profile-navbar .edit-tab {
-  width: 206px;
+  width: 199px;
   padding-right: 10px;
 }
 
