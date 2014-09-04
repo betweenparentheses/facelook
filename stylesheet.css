@@ -4,7 +4,7 @@ body {
 }
 
 div {
-  border: 1px solid #bbb;
+ /* border: 1px solid #555; */
 }
 
 div h1 {
@@ -247,7 +247,7 @@ margin-left: 38px;
 }
 
 .headline .profile-navbar .edit-tab {
-  width: 199px;
+  width: 206px;
   padding-right: 10px;
 }
 
@@ -425,9 +425,20 @@ margin-left: 38px;
 
 .feed-left-column {
   border-right: 2px solid #555;
-  height: 100%;
+  height: 1200px;
   width: 300px;
   display: inline-block;
+  vertical-align: top;
+}
+
+.friends-link-wrapper {
+  margin-top: 18px;
+  text-align: center;
+}
+
+.friends-link-wrapper p a {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .feed {
@@ -454,8 +465,8 @@ margin-left: 38px;
   display: inline-block;
   padding: 5px;
   box-sixing: border-box;
-  vertical-align: middle;
-  margin: auto;
+  vertical-align: top;
+  margin: 30px auto;
   height: 100%;
 }
 
@@ -478,7 +489,10 @@ margin-left: 38px;
   height: 40px;
   width: 40px;
   margin: 5px;
+  border: 1px solid #666;
   display: inline-block;
+  position: relative;
+  top: 0;
 }
 
 .post-ID-text {
@@ -487,12 +501,51 @@ margin-left: 38px;
   vertical-align: middle;
 }
 
+.post-form {
+  border: 2px solid #555;
+  display: block;
+  position: relative;
+  margin: 30px auto;
+  width: 90%;
+  text-align: center;
+}
+
+.post-form h4 {
+  font-weight: bold;
+  background-color: #ddd;
+  border: 2px solid #555;
+}
+
+.post-form .post-form-textarea-wrapper {
+
+}
+
+.post-form .post-form-button-wrapper {
+  background-color: #ddd;
+  border: 2px solid #555;
+  height: 40px;
+}
+
+.post-form .post-form-button-wrapper input {
+  float: right;
+  background-color: #296BE8;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px;
+  width: 90px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  border-bottom: 3px solid #000;
+  border-left: 3px solid #000;
+  margin: 5px;
+}
+
+
 .post {
   border: 2px solid #555;
   display: block;
   position: relative;
   margin: 30px auto;
-  display: block;
   width: 90%;
 }
 
@@ -502,7 +555,7 @@ margin-left: 38px;
   line-height: 18px;
 }
 .post p {
-  padding: 5px auto;
+  padding: 5px 10px;
 }
 
 .post .post-ID {
@@ -510,9 +563,31 @@ margin-left: 38px;
 }
 
 .comment {
-  margin: 10px 0px;
+  margin-top: 20px;
 }
 .comment .post-ID-text {
   height: auto;
-  width: 450px;
+  width: 475px;
+}
+
+.rjust {
+  text-align: right;
+}
+
+.delete {
+  position: absolute;
+  right: 0;
+  bottom: 12px;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+.clearboth {
+  clear: both;
 }
